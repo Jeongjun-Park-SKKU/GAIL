@@ -8,7 +8,7 @@
 4. 데이터 셋을 수정하거나 전처리를 할 수 있다.
 5. 시계열 데이터 특성을 이해하기 위해 LSTM레이어를 이용하였다. 학습 후에 plot을 통해 확인할 수 있다.
 6. 출력된 weight 값을  python -m tf2onnx.convert --saved-model policy_model_1 --output model_1108.onnx 명령어를 통해 onnx 파일로 변경한다.
-7. 이 weight 파일을 https://github.com/mygummy/jahas1.9.4의 resource 위치에 넣는다.
+7. 이 weight 파일을 https://github.com/mygummy/jahas1.9.4 의 resource 위치에 넣는다.
 8. 위 링크의 jahas1.9.4를 실행하기 위한  Unity 프로그램을 설치한다.
 9. 관련 dependency를 모두 맞춘다.
 10. Unity 프로그램에서 실행할 수 있다.
